@@ -15,6 +15,7 @@
 		397E74DF1C33D67900612F1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397E74DD1C33D67900612F1D /* LaunchScreen.storyboard */; };
 		397E74EA1C33D67900612F1D /* BlockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E74E91C33D67900612F1D /* BlockDemoTests.m */; };
 		397E74F51C33D67A00612F1D /* BlockDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E74F41C33D67A00612F1D /* BlockDemoUITests.m */; };
+		397E75071C33D98300612F1D /* SeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E75061C33D98300612F1D /* SeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		397E74F01C33D67A00612F1D /* BlockDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		397E74F41C33D67A00612F1D /* BlockDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDemoUITests.m; sourceTree = "<group>"; };
 		397E74F61C33D67A00612F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		397E75051C33D98300612F1D /* SeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeViewController.h; sourceTree = "<group>"; };
+		397E75061C33D98300612F1D /* SeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				397E74DD1C33D67900612F1D /* LaunchScreen.storyboard */,
 				397E74E01C33D67900612F1D /* Info.plist */,
 				397E74CF1C33D67800612F1D /* Supporting Files */,
+				397E75051C33D98300612F1D /* SeViewController.h */,
+				397E75061C33D98300612F1D /* SeViewController.m */,
 			);
 			path = BlockDemo;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				397E74D71C33D67800612F1D /* ViewController.m in Sources */,
+				397E75071C33D98300612F1D /* SeViewController.m in Sources */,
 				397E74D41C33D67800612F1D /* AppDelegate.m in Sources */,
 				397E74D11C33D67800612F1D /* main.m in Sources */,
 			);
